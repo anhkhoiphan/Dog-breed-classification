@@ -1,2 +1,2 @@
 Using CNN for dog breed classification task. Dataset is a subset of the infamous ImageNet dataset. Hybrid model (Xception + VGG16) used to extract features from images as described in academic papers. 
-After training with train set, I concatenated train and val sets and train a few epochs with small learning rate to take advantage from information in val set, the accuracy in test increased but my friend told me that this may violated some industry standards.
+After training with train set, I concatenated train and val sets and train a few epochs with small learning rate to take advantage from information in val set.
